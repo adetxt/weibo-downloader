@@ -1,0 +1,21 @@
+{
+  "name": "weibo-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jszip": "^3.2.2",
+    "node-fetch": "^2.6.0",
+    "pug": "^2.0.4",
+    "puppeteer": "^7.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
